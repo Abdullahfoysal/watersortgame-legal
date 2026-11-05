@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{APP_NAME}}</title>
+<meta name="robots" content="index,follow">
+<style>
+:root{--bg:#fff;--fg:#1c2330;--muted:#5a6475;--link:#0a58c2;--line:#dde2ea;--card:#f5f7fa}
+@media (prefers-color-scheme:dark){:root{--bg:#10151d;--fg:#e6eaf0;--muted:#9aa5b6;--link:#7db3ff;--line:#2a3342;--card:#182030}}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1{font-size:1.8rem;line-height:1.25;margin:.5rem 0 1rem}
+h2{font-size:1.25rem;margin:2rem 0 .5rem;padding-top:.5rem;border-top:1px solid var(--line)}
+a{color:var(--link);overflow-wrap:anywhere}
+ul{padding-left:1.25rem}
+li{margin:.4rem 0}
+.meta{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.75rem 1rem;color:var(--muted)}
+.meta p{margin:.2rem 0}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>{{APP_NAME}}</h1>
+<p>A calm, single-player water-sort puzzle game for Android.</p>
+<ul>
+<li><a href="privacy-policy.html">Privacy Policy</a></li>
+<li><a href="terms.html">Terms of Service</a></li>
+</ul>
+<p>Contact: <a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+
+<footer>
+<p><a href="index.html">Home</a> &middot; <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a></p>
+<p>Last updated {{DATE}}</p>
+</footer>
+</main>
+</body>
+</html>
