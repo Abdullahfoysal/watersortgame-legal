@@ -8,24 +8,18 @@
 <link rel="icon" type="image/png" sizes="64x64" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <meta name="robots" content="index,follow">
-<style>
-:root{--bg:#fff;--fg:#1c2330;--muted:#5a6475;--link:#0a58c2;--line:#dde2ea;--card:#f5f7fa}
-@media (prefers-color-scheme:dark){:root{--bg:#10151d;--fg:#e6eaf0;--muted:#9aa5b6;--link:#7db3ff;--line:#2a3342;--card:#182030}}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-main{max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem}
-h1{font-size:1.8rem;line-height:1.25;margin:.5rem 0 1rem}
-h2{font-size:1.25rem;margin:2rem 0 .5rem;padding-top:.5rem;border-top:1px solid var(--line)}
-a{color:var(--link);overflow-wrap:anywhere}
-ul{padding-left:1.25rem}
-li{margin:.4rem 0}
-.meta{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:.75rem 1rem;color:var(--muted)}
-.meta p{margin:.2rem 0}
-footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
-</style>
+<link rel="preload" href="fonts/nunito-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site.css">
+<meta name="theme-color" content="#E3F9FD" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#14154A" media="(prefers-color-scheme: dark)">
 </head>
 <body>
+<header class="top"><div class="in">
+<a class="brand" href="index.html"><img src="img/app-icon-64.webp" width="36" height="36" alt="">Glassly</a>
+<nav aria-label="Site"><a href="privacy-policy.html">Privacy</a><a href="terms.html" aria-current="page">Terms</a></nav>
+</div></header>
 <main>
+<article class="card doc">
 <h1>Glassly: Water Sort Puzzle Terms of Service</h1>
 <div class="meta">
 <p><strong>Effective date:</strong> 5 November 2026</p>
@@ -71,6 +65,7 @@ footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);color
 <p><a href="index.html">Home</a> &middot; <a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Service</a></p>
 <p>Last updated 5 November 2026</p>
 </footer>
+</article>
 </main>
 </body>
 </html>
